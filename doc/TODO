@@ -1,0 +1,28 @@
+eZ DBug extension v0.0.2 TODO
+=================================================
+
+There are still quite a lot of features we would
+like to add to eZ DBug
+
+A few users of eZ DBug may require further
+extension of the default eZ publish development features.
+
+* eZ publish based example uses
+* eZpedia.org documentation
+
+* Add default dump display to display in collapsed state
+* Add ezlog support for custom eZ log
+* Add optional argument (default to no) call die() after debug has been displayed.
+
+* Add support for display as debug toolbar item.
+* Add support for display of debug to respect existing debugbyip settings
+* Add features provided by, 'lib/eztemplate/classes/eztemplateattributeoperator.php'
+* Add important feature: hovering over any field should show actual variable 
+  to use in template to get that value or some other way, point is that once
+  you have navigated to the value that interests you in this folding tree you
+  could copy-paste the variable to use from there, paste it in template and bang get value.
+
+If you are interested in sponsoring the development
+of any of these features for your eZ publish web site,
+please contact info@brookinsconsulting.com
+

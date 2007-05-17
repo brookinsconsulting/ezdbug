@@ -1,0 +1,22 @@
+eZ DBug extension v0.0.1 FEATURES
+=================================================
+
+Name
+* Complex Variable Output
+* Styled Output 
+* Colored Output
+* Simplifies complex structures like arrays, objects, etc
+  via distinct visual output
+
+Support
+=================================================
+
+There are many additional features we would
+like to add to eZ DBug.
+
+A few users of eZ DBug may require further
+development of the eZ DBug extension.
+
+If you are interested in sponsoring the development
+of any of these features for your eZ publish web site,
+please contact info@brookinsconsulting.com

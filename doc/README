@@ -1,0 +1,81 @@
+eZ DBug extension v0.0.1 README
+
+What is the eZ DBug extension?
+================================
+
+eZ DBug is a true eZ publish extension
+that provides simple, styled variable 
+dump debug output features.
+
+These features are available as 
+template operators and php class object methods.
+
+This code is very simple to customize to meet your own tastes and needs!
+
+{$take_that_stale_ol|attribute(show,1)}!
+
+
+eZ DBug version
+=======================
+
+The current version of eZ DBug is 0.0.1.
+Last Updated: January 13, 2007
+
+You can find details about changes for this
+version in doc/changelogs/CHANGELOG-0.0.1
+
+
+License
+=======
+
+This software is licensed under the GNU General Public License.
+
+The complete license agreement is included in the doc/LICENSE file.
+
+For more information or questions please contact license@brookinsconsulting.com
+
+
+Requirements
+============
+
+The following requirements exists for using eZ DBug extension:
+
+o  eZ publish version:
+
+   Make sure you use eZ publish version 3.7 or higher.
+
+o  PHP version:
+
+   Make sure you have PHP 4.4.x or higher.
+
+
+Installation
+============
+
+Details on installing eZ DBug located in the file doc/INSTALL.
+
+
+Usage
+============
+
+Simply install and activate the extension.
+
+Then use the provided template operators in your templates, modules or extensions.
+
+
+Troubleshooting
+===============
+
+1. Read the FAQ
+   ------------
+
+   Some problems are more common than others. The most common ones
+   are listed in the the FAQ.
+
+2. Support
+   -------
+
+   If you have find any problems not handled by this document or the FAQ you
+   can contact Brookins Consulting through the support system:
+   http://brookinsconsulting.com/contact
+

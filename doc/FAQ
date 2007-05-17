@@ -1,0 +1,69 @@
+eZ DBug extension v0.0.1 FAQ
+
+1. DBug API Support
+=================================================
+* Designed to provide a wrapper to using dbug library with minimal modifications.
+
+
+1.1 Dbug Resources
+=================================================
+http://dbug.ospinto.com/
+
+
+2. Referencs
+=================================================
+* Portions of the 'DBug' extension are based on the 
+  'dBug' class. http://dbug.ospinto.com/
+
+**  "It's a class that displays structured information 
+    about a variable in a colored tabular format. 
+
+    Simply put, it's PHP's var_dump function on steroids. 
+    If you have ever used ColdFusion you would certainly 
+    agree with me that its tag (cfdump) has a much better 
+    representation/output of a variable and its contents 
+    than PHP's var_dump which only outputs horrible 
+    <strike>structured</strike> information. 
+
+    It's very difficult to view at a glance the contents of 
+    a large array with var_dump. Well, dBug is the the 
+    equivalent of PHP's cfdump. ColdFusion programmers would 
+    be happy to note that the same color scheme is used as 
+    the default scheme for dBug. 
+
+    And well, PHP programmers would be happy to note that 
+    they can at last see contents of a variable much easier with dBug."
+
+
+3. Required Fields
+=================================================
+* Each function has it's own requirired arguments.
+
+
+PHP Functions
+
+From file, 'ezdbug/autoloads/ezdbug.php'
+Class: eZDBugOperators 
+Method: ezdbugDump
+Arguments: $v, $max_depth = 2, $show_functions = false
+
+From file, 'ezdbug/classes/ezdbug.php'
+Method: Many, please see file.
+
+
+Template Operators
+
+* ezdbug( $variable, $depth = 99, $show_functions = false ) - $variable argument is required.
+* ezdbug_dump( $variable, $depth = 99, $show_functions = false ) - $variable argument is required.
+
+
+4. Testing
+=================================================
+* This has only been lightly tested for use 
+  in eZ publish template and extension development.
+
+
+5. Credit
+=================================================
+* Dylan McDiarmid provided an inital regular PHP implimentation.
+* Graham Brookins provided the eZ publish extension implimentation.
