@@ -1,0 +1,19 @@
+eZ DBug extension v0.0.2 TODO
+=================================================
+
+There are still quite a lot of features we would
+like to add to eZ DBug
+
+A few users of eZ DBug may require further
+extension of the default eZ publish development features.
+
+* eZ publish based example uses
+* eZpedia.org documentation
+* Add default dump display to display in collapsed state
+* Add ezlog support for custom eZ log
+* Add optional argument (default to no) call die() after debug has been displayed.
+
+If you are interested in sponsoring the development
+of any of these features for your eZ publish web site,
+please contact info@brookinsconsulting.com
+
