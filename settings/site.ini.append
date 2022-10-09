@@ -2,4 +2,4 @@
 # eZ publish configuration file.
 
 [TemplateSettings]
-AutoloadPathList[]=extension/ezdbug/autoloads
+AutoloadPathList[]=extension/ezdbug/autoloads/
